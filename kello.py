@@ -3,9 +3,6 @@ from Tkinter import *
 import datetime
 import math
 def liikuta():
-	global sekunti
-	global minuutt
-	global tunti
 	try:
 		taulu.delete(sekunti)
 		taulu.delete(minuutti)
